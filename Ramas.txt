@@ -1,0 +1,37 @@
+Editar una rama:
+
+git checkout "rama" (sea local o remota")
+(editar rama y luego:  )
+git add . 
+git commit -m "mensaje"
+
+--------------------------------------
+SUBIR de equipo a github
+git push origin "ramaEditada"
+
+--------------------------------------
+EMLIMINAR RAMA LOCAL:
+git branch -d branch_name
+
+---------------------------------------
+RENOMBRAR RAMA:
+te cambias de rama, a cualquiera y luego,
+para renombrar una rama(sea local o remota"):
+
+git branch -m "nombrerama" "nuevoNombre"
+
+---------------------------------------
+BORRAR RAMA REMOTA:
+git branch -a
+git push origin --delete "cooreccionMer"
+
+
+revisar:
+database/seeds/DatabaseSeeder
+database/seeds/
+migrations/
+routes/api/
+app
+http/Controllers
+hecho:
+actividadesFestival

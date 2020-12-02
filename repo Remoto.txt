@@ -1,0 +1,9 @@
+git init
+git checkout -b "Nombre rama"(Ej:1.ConceptosBasicos)
+git branch 
+git remote add origin [zelda]
+git status
+git add .
+git status
+git commit -m "Mi primer programa"
+git push -u origin 1.ConceptosBasicos(Nombre rama)
